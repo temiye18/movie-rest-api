@@ -61,7 +61,7 @@ function App() {
     );
 
     const data = await response.json();
-    // console.log(data);
+    console.log(data);
     fetchMoviesHandler();
   }
 
